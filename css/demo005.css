@@ -99,6 +99,7 @@ background-attachment: fixed;
     position: absolute;
     width: 100%;
     bottom: -10px;
+    margin-left: -2px;
 }
 .curveado img{
     width: 100%;
