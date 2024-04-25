@@ -460,11 +460,11 @@ $(document).ready(function(){
 
 	
 });
-function personas1() {
-    window.open("pases/inicio1.html", "_self");        
+function HerreraRobles() {
+    window.open("pases/HerreaRobles.html", "_self");        
 }
-function personas2() {
-    window.open("pases/inicio2.html", "_self");        
+function BautistaHerrera() {
+    window.open("pases/BautistaHerrera.html", "_self");        
 }
 function personas3() {
     window.open("pases/inicio3.html", "_self");        
@@ -488,7 +488,7 @@ function personas9() {
     window.open("pases/inicio9.html", "_self");        
 }
 
- function copiar1(){
+ function copiarBarronGloria(){
   var origen = document.getElementById('target1');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
@@ -502,7 +502,7 @@ function personas9() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiar2(){
+ function copiarBautistaHerrera(){
   var origen = document.getElementById('target2');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
