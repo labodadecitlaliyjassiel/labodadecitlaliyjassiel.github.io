@@ -461,7 +461,7 @@ $(document).ready(function(){
 	
 });
 function HerreraRobles() {
-    window.open("pases/HerreaRobles.html", "_self");        
+    window.open("pases/HerreraRobles.html", "_self");        
 }
 function BautistaHerrera() {
     window.open("pases/BautistaHerrera.html", "_self");        
@@ -488,7 +488,7 @@ function personas9() {
     window.open("pases/inicio9.html", "_self");        
 }
 
- function copiarBarronGloria(){
+ function copiarHerreraRobles(){
   var origen = document.getElementById('target1');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
