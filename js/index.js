@@ -585,7 +585,7 @@ function Many() {
   destino.focus();
   document.execCommand('paste');
 }
- function copiarBarumenRoldan(){
+ function copiarBerumenRoldan(){
   var origen = document.getElementById('target3');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
