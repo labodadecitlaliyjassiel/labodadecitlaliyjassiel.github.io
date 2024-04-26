@@ -466,8 +466,8 @@ function HerreraRobles() {
 function BautistaHerrera() {
     window.open("pases/BautistaHerrera.html", "_self");        
 }
-function BarumenRoldan() {
-    window.open("pases/BarumenRoldan.html", "_self");        
+function BerumenRoldan() {
+    window.open("pases/BerumenRoldan.html", "_self");        
 }
 function BerumenGallegos() {
     window.open("pases/BerumenGallegos.html", "_self");        
@@ -479,7 +479,7 @@ function MedinaGonzalez() {
     window.open("pases/MedinaGonzalez.html", "_self");        
 }
 function CeciliaBerumenQuiñones() {
-    window.open("pases/BerumenQuiñones.html", "_self");        
+    window.open("pases/CeciliaBerumenQuiñones.html", "_self");        
 }
 function MarioRoblesDelgado() {
     window.open("pases/MarioRoblesDelgado.html", "_self");        
