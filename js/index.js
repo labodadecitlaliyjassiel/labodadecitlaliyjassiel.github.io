@@ -556,6 +556,12 @@ function Ita() {
 function Many() {
     window.open("pases/Many.html", "_self");        
 }
+function Generica() {
+    window.open("inicio.html", "_self");        
+}
+
+
+
 
  function copiarHerreraRobles(){
   var origen = document.getElementById('target1');
@@ -983,6 +989,21 @@ function copiarTellezGuereca(){
 }
  function copiarMany(){
   var origen = document.getElementById('target31');
+  var destino = document.getElementById('target10');
+  var copyFrom = document.createElement("textarea");
+  copyFrom.textContent = origen.value;
+  var body = document.getElementsByTagName('body')[0];
+  body.appendChild(copyFrom);
+  copyFrom.select();
+  document.execCommand('copy');
+  alert("Copiado al portapapeles!");
+  body.removeChild(copyFrom);
+  destino.focus();
+  document.execCommand('paste');
+}
+
+ function copiarGenerica(){
+  var origen = document.getElementById('target32');
   var destino = document.getElementById('target10');
   var copyFrom = document.createElement("textarea");
   copyFrom.textContent = origen.value;
