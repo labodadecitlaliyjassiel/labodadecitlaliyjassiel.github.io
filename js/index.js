@@ -457,7 +457,25 @@ $(document).ready(function(){
 	});
 
 
-
+$(document).ready(function () {
+ 
+    (function ($) {
+ 
+        $('#filtrar').keyup(function () {
+ 
+             var rex = new RegExp($(this).val(), 'i');
+ 
+             $('.buscar  li').hide();
+ 
+             $('.buscar  li').filter(function () {
+               return rex.test($(this).text());
+             }).show();
+ 
+        })
+ 
+    }(jQuery));
+ 
+});
 	
 });
 function HerreraRobles() {
